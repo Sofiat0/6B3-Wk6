@@ -627,6 +627,14 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.left-5 {
+  left: 1.25rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -779,8 +787,8 @@ video {
   height: 5rem;
 }
 
-.h-6 {
-  height: 1.5rem;
+.h-9 {
+  height: 2.25rem;
 }
 
 .h-\[80vh\] {
@@ -789,10 +797,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[\] {
-  height: ;
 }
 
 .min-h-screen {
@@ -805,10 +809,6 @@ video {
 
 .w-12 {
   width: 3rem;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .w-\[78\%\] {
@@ -1008,6 +1008,11 @@ video {
 
 .snap-always {
   scroll-snap-stop: always;
+}
+
+.scroll-px-24 {
+  scroll-padding-left: 6rem;
+  scroll-padding-right: 6rem;
 }
 
 .list-inside {
@@ -1776,17 +1781,26 @@ video {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-yellow-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-tr {
-  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-}
-
 .bg-\[url\(\.\.\/image\/man\.webp\)\] {
   background-image: url(../image/man.webp);
+}
+
+.bg-\[url\(\.\.\/image\/womanman\.webp\)\] {
+  background-image: url(../image/womanman.webp);
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
 .from-\[blue\] {
@@ -1922,13 +1936,72 @@ video {
   padding-right: 0.25rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-left {
@@ -2005,13 +2078,27 @@ video {
   line-height: 2.25rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .uppercase {
@@ -2084,6 +2171,11 @@ video {
 
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-blue-500 {
